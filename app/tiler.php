@@ -12,6 +12,7 @@ Router::serve([
     'services/:alpha/:number/:number/:alpha' => 'Tiles:getTile',
 ]);
 
+header('Access-Control-Allow-Origin: *');
 
 class Server {
 
